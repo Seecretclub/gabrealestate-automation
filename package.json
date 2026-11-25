@@ -1,0 +1,16 @@
+{
+  "name": "gabreal-automation",
+  "version": "1.0.0",
+  "description": "Automatisation Instagram -> page de contact -> WhatsApp pour Gabreal Estate",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "express-basic-auth": "^1.2.1",
+    "node-fetch": "^2.7.0"
+  }
+}
